@@ -1,0 +1,13 @@
+/proyecto-navbar
+    /src
+        /css
+            index.css
+            status.css
+            mantenimiento.css
+        /js
+            index.js
+            status.js
+            mantenimiento.js
+    index.html
+    status.html
+    mantenimiento.html
