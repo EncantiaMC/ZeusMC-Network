@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #333;
-    color: white; /* Asegura que el texto en el cuerpo sea blanco */
 }
 
 /* Navbar */
@@ -10,33 +9,33 @@ nav {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px 0; /* Aumentado de 10px a 15px */
-    position: relative; /* Para posicionar el indicador de página */
+    padding: 15px 0;
+    position: relative;
 }
 
 .nav-options {
-    display: inline-block; /* Para centrar el menú */
+    display: inline-block;
 }
 
 .nav-options a {
-    color: white; /* Color de texto de los enlaces */
+    color: white;
     text-decoration: none;
-    margin: 0 20px; /* Aumentado para mayor separación */
-    font-size: 20px; /* Aumentado de 18px a 20px */
-    padding: 15px 20px; /* Aumentado de 10px 15px a 15px 20px */
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 15px 20px;
 }
 
 .nav-options a.active {
-    border-bottom: 3px solid #fff; /* Resaltado del enlace activo */
+    border-bottom: 3px solid #fff;
 }
 
 .page-indicator {
-    color: #00bcd4; /* Color turquesa */
-    font-size: 16px; /* Aumentado de 14px a 16px */
-    position: absolute; /* Cambiado a absolute */
-    right: 15px; /* Posicionado a la derecha */
-    top: 10px; /* Ajustar la posición vertical */
-    animation: slideIn 0.5s ease; /* Añadir animación */
+    color: #00bcd4;
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    animation: slideIn 0.5s ease;
 }
 
 /* Animación de desplazamiento */
@@ -62,15 +61,18 @@ nav {
     padding: 20px;
     text-align: center;
 }
+
+/* Redes Sociales */
 .social-media {
-    position: fixed; /* Fija la posición en la pantalla */
-    bottom: 20px; /* Espaciado desde el fondo */
-    left: 20px; /* Espaciado desde la izquierda */
-    display: flex; /* Usa flexbox para alinear las imágenes */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
 }
 
 .social-icon {
-    width: 35px; /* Ajusta el tamaño de las imágenes */
-    height: 35px; /* Mantiene la proporción */
-    margin-right: 10px; /* Espacio entre las imágenes */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
+
