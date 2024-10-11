@@ -1,12 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll('.nav-link');
-    const currentPage = window.location.pathname.split("/").pop(); // Obtiene el nombre del archivo actual
+// navbar.js
 
-    links.forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-            link.classList.add('active'); // Añadir clase activa al enlace correspondiente
-            const indicator = document.querySelector('.page-indicator');
-            indicator.textContent = link.textContent; // Cambiar el texto del indicador de página
-        }
-    });
+// Obtén la URL actual
+const currentUrl = window.location.pathname;
+const links = document.querySelectorAll('.nav-link');
+
+// Recorre todos los enlaces de navegación
+links.forEach(link => {
+    // Comprueba si el href del enlace coincide con la URL actual
+    if (link.href === window.location.href) {
+        link.classList.add('active'); // Agrega la clase 'active' si coincide
+    }
 });
